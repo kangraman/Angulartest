@@ -1,0 +1,20 @@
+{
+  "signup": [
+    {
+      "fname": "user",
+      "lname": "1",
+      "email": "user@gmail.com",
+      "phone": "123457980",
+      "password": "user",
+      "id": 1
+    },
+    {
+      "fname": "admin",
+      "lname": "1",
+      "email": "admin@gmail.com",
+      "phone": "1234567891",
+      "password": "admin",
+      "id": 2
+    }
+  ]
+}

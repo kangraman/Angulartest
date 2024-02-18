@@ -1,0 +1,7 @@
+<button><a [routerLink]="['/ADDSTATE']">Go to Add State</a></button>
+
+<div>
+    <label for="countryName">Country Name:</label>
+    <input id="countryName" [(ngModel)]="country.countryName" name="countryName" type="text">
+    <button (click)="addCountry()">Add Country</button>
+  </div>

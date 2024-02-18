@@ -1,0 +1,46 @@
+/* You can add global styles to this file, and also import other style files */
+nav {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 70px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  .common-form{
+  text-align: center;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  width: 300px;}
+  .form-input{
+  height: 35px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  border: 1px solid blueviolet;
+  color: blueviolet;
+  }
+.form-button{
+height: 35px;
+border: 1px solid blueviolet;
+cursor: pointer;}

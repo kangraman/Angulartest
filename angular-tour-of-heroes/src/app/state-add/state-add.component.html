@@ -1,0 +1,14 @@
+<div>
+    <h2>Add State</h2>
+    <div>
+      <label for="stateName">State Name:</label>
+      <input type="text" id="stateName" [(ngModel)]="state.stateName" name="stateName" required>
+    </div>
+    <div>
+      <label for="country">Country:</label>
+      <select id="country" [(ngModel)]="state.countryName" name="countryId" required>
+        <option *ngFor="let country of countries" [value]="country.countryName">{{ country.countryName }}</option>
+      </select>
+    </div>
+    <button (click)="addState()">Add State</button>
+  </div>

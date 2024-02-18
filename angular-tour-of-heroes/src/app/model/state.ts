@@ -1,0 +1,6 @@
+export interface State {
+    stateId: number;
+    stateName: string;
+    countryId: number;
+    countryName:string;
+  }
